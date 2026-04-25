@@ -9,7 +9,22 @@
   </head>
 
   <body>
-    <h1>welcome to Library</h1>
+    <div class="container">
+      <h1>welcome to Library</h1>
+      <button class="new-book">new book</button>
+      <div class="form">
+        <h2>add book to library</h2>
+        <div class="close">x</div>
+        <form id="addForm">
+          <input type="text" name="title" id="title" placeholder="book title" required />
+          <input type="text" name="author" id="author" placeholder="book author" required />
+          <input type="number" name="pages" id="pages" placeholder="number of pages" required />
+          <button type="submit">add book</button>
+        </form>
+      </div>
+
+      <div class="grid"></div>
+    </div>
     <script src="js/script.js"></script>
   </body>
 
